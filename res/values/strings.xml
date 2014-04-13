@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Start!</string>
+    <string name="app_name">PickADoor</string>
+    <string name="start">Start</string>
+    <string name="score_text">Score</string>
+    <string name="next_game_text">Next Game</string>
+    <string name="stats_text">Stats</string>
+    <string name="quit_game_text">Quit Game</string>
+    <string name="stats_act">Stats</string>
+    <string name="stats_score">Score:</string>
+    <string name="stats_times_played"># of Times Played:</string>
+    <string name="stats_win_ratio">Win Ratio:</string>
+    <string name="stayed_count"># of Times Stayed:</string>
+    <string name="stayed_wins">Wins when Staying:</string>
+    <string name="stayed_win_ratio">Staying Win Ratio:</string>
+    <string name="changed_count"># of Times Changed:</string>
+    <string name="changed_wins">Wins when Changing:</string>
+    <string name="changed_win_ratio">Changing Win Ratio:</string>
+    <string name="first_pick_right_count">First Choice was Correct:</string>
+    <string name="left_door_count">Left Door was Correct:</string>
+    <string name="middle_door_count">Middle Door was Correct:</string>
+    <string name="right_door_count">Right Door was Correct:</string>
+</resources>

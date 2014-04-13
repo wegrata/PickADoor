@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView android:text="@string/score_text" android:id="@+id/score_text" android:layout_marginRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <TextView android:id="@+id/score_value" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </TableRow>
+    </TableLayout>
+    <FrameLayout android:id="@+id/game_view_frame" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1"></FrameLayout>
+    <TableLayout android:id="@+id/tableLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:text="@string/next_game_text" android:id="@+id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+            <Button android:text="@string/stats_text" android:id="@+id/stats_button" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+            <Button android:text="@string/quit_game_text" android:id="@+id/quit_button" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
